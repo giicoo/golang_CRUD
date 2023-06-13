@@ -5,3 +5,9 @@ build:
 
 run: build
 	./.bin/server
+
+test: 
+	go test -v ./...
+
+testik:
+	go test ./...
